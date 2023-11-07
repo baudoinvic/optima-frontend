@@ -1,0 +1,177 @@
+
+ body{
+    background-color: #5276CA;
+ }
+
+
+ .who-we-are {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.who-we-are h1{
+  color: white;
+  font-size: 30px;
+}
+.who-we-are p{
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*----------end of header--------*/
+
+ .more-about {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+ 
+}
+
+.col-1, .col-2, .col-3 {
+  flex: 1;
+  padding: 50px;
+  background: white;
+  border: 1px solid #e0e0e0;
+  margin: 10px; 
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+ .col-1:hover, .col-2:hover, .col-3:hover {
+  transform: scale(1.05); 
+}
+
+
+.col-1 h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.col-1 p {
+  font-size: 14px;
+  color: #666;
+}
+
+.col-2 h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.col-2 p {
+  font-size: 14px;
+  color: #666;
+}
+
+.col-3 h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.col-3 p {
+  font-size: 14px;
+  color: #666;
+}
+
+ /*------------paterners-------------*/
+
+.patner{
+    text-align: center;
+    color: white;
+}
+
+ .our-patners {
+  display: flex;
+  align-items: center; 
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+}
+
+.our-patners > div {
+  flex: 1; 
+  text-align: center; 
+}
+
+.our-patners img {
+  max-width: 50%; 
+  height: auto;
+}
+
+.reserve {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* You can adjust the height as needed */
+}
+
+ .patner{
+  font-size: 25px;
+ }
+
+/*-------social media-------*/
+
+
+ .social-media-icon{
+    display: flex;
+     margin-left: 10rem;
+ }
+
+.social-icons {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; 
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 50%; 
+  color: white;
+  font-size: 24px;
+  margin: 0 5px;
+ margin-top: -4rem;
+}
+
+  /*responsiveness*/
+
+  @media screen and (max-width: 768px) {
+  .more-about {
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-direction: column;
+  }
+
+   .who-we-are p{
+     text-align: left;
+     margin-left: 3rem;
+   }
+
+  .col-1,
+  .col-2,
+  .col-3 {
+    flex-basis: calc(33.33% - 2%);
+    margin: 2%;
+ 
+  }
+
+  .our-patners {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .our-patners > div {
+    flex-basis: calc(33.33% - 2%);
+    margin: 2%;
+  }
+
+  .social-media-icon {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 2rem;
+    margin-left: 7rem;
+  }
+}

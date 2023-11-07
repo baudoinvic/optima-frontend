@@ -1,0 +1,44 @@
+ .login-container{
+            width: 30%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #333;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            margin-top: 12rem;
+       }
+ 
+ 
+ 
+       .teeny {
+       display: flex;
+       align-items: center;
+       gap: 10px;
+       margin-bottom: 25px;
+
+      }
+
+      .remember {
+      display: flex;
+      align-items: center;
+      margin-right: 7rem;
+      font-size: 13px;
+     }
+
+     .forgot-password{
+      font-size: 13px;
+      }
+
+     .local-user-log{
+    color: #3248BF;
+    }
+
+     /*responsiveness*/
+
+        @media screen and (max-width: 768px) {
+        .login-container {
+         margin-top: 10rem; 
+         width: 100%;
+  }
+}
