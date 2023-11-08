@@ -28,6 +28,9 @@ const Navbar = () => {
         <div className={`${navbar.links} ${bar ? navbar.humber : ""}`}>
           <NavLink to="/">Home</NavLink>
           <NavLink to="/about">About Us</NavLink>
+          <NavLink to="/dashboard">
+           Dashboard
+          </NavLink>
         </div>
         <div className={navbar.auth}>
           <div className={`${navbar.signin} ${navbar.flex}`} v-if="!user">
