@@ -55,12 +55,12 @@ const Chart = () => {
      labels,
      datasets: [
        {
-         label: "number of booking",
+         label: "number of patient",
          data: [20, 43, 10, 54, 8, 23, 40, 23, 56, 87, 44, 10],
          backgroundColor: "#6A399E",
        },
        {
-         label: "number of booking",
+         label: "number of patient",
          data: [24, 26, 16, 10, 20, 40, 46, 49, 72, 34, 54, 60, 65, 70, 72],
          backgroundColor: "skyblue",
        },

@@ -1,0 +1,135 @@
+  .user-description{
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+  }
+
+   .management-users{
+     margin-left: 4rem;
+     color: white;
+   }
+
+   .user-profile{
+    margin-left: 55rem;
+   }
+
+   /*----------uoptima-user-description----------------*/
+
+ .user-optima-desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 2%;
+  margin-top: 2rem;
+}
+  .search-user {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px;
+  }
+
+  .search-user input[type="text"] {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    font-size: 14px;
+  }
+
+  .search-user input[type="text"]::placeholder {
+    color: #999;
+  }
+
+  .search-user svg {
+    margin-right: 6px;
+    color: #999;
+  }
+
+  
+
+.user-add {
+  margin-left: 10px;
+}
+
+.adding {
+  background-color: #6A399E;
+  padding: 10px 25px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  border: none;
+}
+
+ /*---------div--list-----------------*/
+
+ .cell {
+  list-style: none;
+  margin-left: 3rem;
+
+}
+ .active {
+  display: flex;
+  padding: 8px;
+  color: white;
+}
+
+.status {
+  flex: 1;
+}
+
+.username {
+  flex: 1;
+}
+
+.email {
+  flex: 1;
+}
+
+ .user-list{
+  margin-top: 4rem;
+ }
+
+  /*---------user-design-tab-------------*/
+
+  .user-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 20rem;
+  margin-left: 2rem;
+  padding: 20px;
+}
+
+.user-cell {
+  flex: 1;
+  color: #858585;
+}
+
+ .user-name{
+  flex: 1;
+  color: #858585;
+ }
+
+ .user-email{
+  flex: 1;
+  color: #858585;
+ }
+ 
+.action-icons {
+  display: flex;
+  gap: 10px;
+  background-color: #f2f2f2;
+  padding: 5px;
+}
+
+.red-icon{
+  color: red;
+}

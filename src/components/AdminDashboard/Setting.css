@@ -1,0 +1,133 @@
+.settings-tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 2rem;
+  margin-top: 4rem;
+  background-color: white;
+}
+
+.user-setting-logo {
+  display: flex;
+  align-items: center;
+}
+
+.setting-second-img {
+  margin-left: 67rem; 
+  display: flex;
+  align-items: center;
+}
+
+ .notif{
+    margin-right: 2rem;
+    color: #3692EB;
+ }
+
+ .sms{
+    margin-right: 1rem;
+    color: #3692EB;
+ }
+
+ /*end for styling first section*/ 
+
+   
+        .setting-left-side {
+            width: 300px; 
+            background-color: #425EA2;
+            color: #fff;
+            padding: 10px;
+            margin-left: 2rem;
+            margin-top: 4rem;
+            height: 74vh;
+        }
+
+        
+        .change-information {
+            display: flex;
+            flex-direction: column;
+        }
+
+
+          .change-information span,
+           .security span,
+           .password-change span {
+            display: flex;
+           align-items: center;
+           gap: 5px; 
+           padding: 2rem;
+           cursor: pointer;
+        }
+
+        /*------end for setting-left-side ------*/
+
+          .information-part{
+            display: flex;
+          
+          }
+
+          .profile-setting-tile{
+            margin-top: 4rem;
+            margin-left: 2rem;
+          }
+           
+          .setting-info-title{
+            margin-left: 2rem;
+            color: #333;
+          }
+
+
+          /*form style*/
+
+          .setting-right-side{
+            margin-left: 4rem;
+          }
+
+
+        .settings-tab-form {
+           display: flex;
+           flex-direction: column;
+           margin-left: 2rem;
+           margin-top: 4rem;
+         }
+
+         .settings-tab-form label {
+         margin-bottom: 0.5rem;
+         }
+
+        .settings-tab-form input,
+        .settings-tab-form select {
+         width: 100%;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        border: solid 1px #D1D5DB;
+       }
+
+      .settings-tab-form .row {
+       display: flex;
+      gap: 1rem;
+      }
+
+     .settings-tab-form .row .col {
+      flex: 1;
+      }
+
+       .cancel {
+       display: flex;
+       align-items: center;
+       padding: 20px;
+       margin-left: 1rem;
+       }
+
+    .canceling {
+     padding: 15px 40px;
+     border: 1px solid black;
+     margin-right: 10px; 
+    }
+
+.saving {
+   padding: 15px 40px;
+   margin-left: 2rem; 
+   background-color: #72399E;
+   color: white;
+   border: 1px solid white;
+}
