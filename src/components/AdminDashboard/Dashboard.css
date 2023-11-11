@@ -35,7 +35,7 @@
 }
 
 .sidebar-menu a:hover {
-  color: #00f; 
+  color: lightblue; 
 }
 
 .sidebar-menu span {
@@ -136,6 +136,15 @@ p {
  }
 
   .white-background{
-    background-color: white;
+   
  
   }
+
+   .option{
+     background-color: white;
+     width: 200px;
+   }
+
+
+
+ 

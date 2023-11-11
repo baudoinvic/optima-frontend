@@ -72,8 +72,8 @@ const Chart = () => {
   return (
     <div className="chart">
       {/* <Bar  options={options} data={data} /> */}
-      <Bar options={options} data={data} className="white-background" />
-      
+      <Bar className='option' options={options} data={data}  />
+     
     </div>
   );
 }

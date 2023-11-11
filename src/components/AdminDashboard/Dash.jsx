@@ -15,12 +15,13 @@ const Dash = () => {
       <div className="notification">
         <h2 className="dashboard-title">Dashboard</h2>
         <div className="not">
-          <img className='third-logo-admin'
+          <img
+            className="third-logo-admin"
             src={require("../../assets/images/admin.png")}
             alt=""
             draggable="false"
           />
-          <span className=''>Admin</span>
+          <span className="">Admin</span>
           {/* <NotificationsNoneIcon /> */}
         </div>
       </div>
@@ -50,6 +51,7 @@ const Dash = () => {
           <h2>$20.4k</h2>
           <p>calculating the Salary per year</p>
         </div>
+        
       </div>
       <div className="chart">
         <Chart />

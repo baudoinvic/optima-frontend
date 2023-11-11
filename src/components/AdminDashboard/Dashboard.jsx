@@ -63,7 +63,7 @@ const Dashboard = () => {
             </li>
 
             <li>
-              <NavLink to="/region">
+              <NavLink to="/dashboard/region">
                 <FontAwesomeIcon icon={faGlobe} />
                 <span className="">Region</span>
               </NavLink>

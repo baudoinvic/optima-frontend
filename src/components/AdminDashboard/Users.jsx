@@ -1,12 +1,14 @@
 import React from 'react'
 
 import './Users.css'
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faSearch,
   faPlus,
   faTrash,
   faPencilAlt,
+  faPlusCircle,
 } from "@fortawesome/free-solid-svg-icons";
 
 
@@ -38,7 +40,7 @@ const Users = () => {
         <div className="user-add">
           <button className="adding">
             New user
-            <FontAwesomeIcon className='plus' icon={faPlus} />
+            <FontAwesomeIcon className='circle' icon={faPlusCircle} />
           </button>
         </div>
       </div>
@@ -55,32 +57,26 @@ const Users = () => {
       </div>
 
       <div className="user-row">
-        <div className="user-cell">
-          Active
-        </div>
-        <div className="user-name">jonathan</div>
-        <div className="user-email">derriv@gmail.com</div>
-        <FontAwesomeIcon className="red-icon" icon={faTrash} />
-        <FontAwesomeIcon icon={faPencilAlt} />
-       </div>
-       <br></br>
-
-      <div className="user-row">
-        <div className="user-cell" >
-          Active
-        </div>
+        <div className="user-cell">Active</div>
         <div className="user-name">jonathan</div>
         <div className="user-email">derriv@gmail.com</div>
         <FontAwesomeIcon className="red-icon" icon={faTrash} />
         <FontAwesomeIcon icon={faPencilAlt} />
       </div>
-      
-       <br></br>
+      <br></br>
 
-        <div className="user-row">
-        <div className="user-cell">
-          Active
-        </div>
+      <div className="user-row">
+        <div className="user-cell">Active</div>
+        <div className="user-name">jonathan</div>
+        <div className="user-email">derriv@gmail.com</div>
+        <FontAwesomeIcon className="red-icon" icon={faTrash} />
+        <FontAwesomeIcon icon={faPencilAlt} />
+      </div>
+
+      <br></br>
+
+      <div className="user-row">
+        <div className="user-cell">Active</div>
         <div className="user-name">jonathan</div>
         <div className="user-email">derriv@gmail.com</div>
         <FontAwesomeIcon className="red-icon" icon={faTrash} />

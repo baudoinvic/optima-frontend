@@ -50,6 +50,13 @@
     color: #999;
   }
 
+  .action{
+    margin-right: 20px;
+  }
+
+  .circle{
+    padding: 10px;
+  }
   
 
 .user-add {

@@ -11,7 +11,7 @@ const Staff = () => {
       <div className="fetching">
         <div className="got-trow">
           <div className="gone">
-            <div className="cellule">Status</div>
+            <div className="cellule-status">Status</div>
             <div className="cellule">Dental staff</div>
             <div className="cellule">Laboratory staff</div>
             <div className="cellule">Staffdescription</div>
@@ -23,7 +23,20 @@ const Staff = () => {
         </div>
 
         <div className="gone">
-          <div className="cellule">Active</div>
+          <div className="cellule-ative">Active</div>
+          <div className="cellule">Dental</div>
+          <div className="cellule">Laboratory</div>
+          <div className="cellule">optima</div>
+          <div className="cellule">john doe</div>
+          <div className="cellule">Dental staff</div>
+          <div className="cellule">Dental surgeon</div>
+          <div className="actions-icon">
+            <BsFillTrashFill className="first-icon" />
+            <BsFillPencilFill />
+          </div>
+        </div>
+        <div className="gone">
+          <div className="cellule-disabled">Active</div>
           <div className="cellule">Dental</div>
           <div className="cellule">Laboratory</div>
           <div className="cellule">optima</div>

@@ -11,6 +11,7 @@ import Dash from "./components/AdminDashboard/Dash";
 import Navbar from "./components/site/navbar";
 import Setting from "./components/AdminDashboard/Setting";
 import Staff from "./components/AdminDashboard/Staff";
+import Region from "./components/AdminDashboard/Region/Region";
 
 
 
@@ -49,6 +50,7 @@ import Staff from "./components/AdminDashboard/Staff";
                <Route path="chart" element={<Chart />} />
                <Route path="Setting" element={<Setting />} />
                <Route path="Staff" element={<Staff />} />
+               <Route path="Region" element={<Region />} /> 
              </Route>
            </Routes>
          </BrowserRouter>
