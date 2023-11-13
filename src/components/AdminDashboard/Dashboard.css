@@ -135,16 +135,55 @@ p {
 
  }
 
-  .white-background{
-   
- 
-  }
-
    .option{
      background-color: white;
      width: 200px;
    }
+    
+   /*----dropdown-----*/
+
+ .dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu > .submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 100px;
+  z-index: 1;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-submenu:hover > .submenu {
+  display: block;
+}
+
+.submenu li {
+  padding: 3px;
+}
+
+.submenu li:hover {
+  background-color: #f2f2f2;
+}
+
+.submenu a {
+  color: #333;
+  text-decoration: none;
+}
+
+.submenu a:hover {
+  color: #000;
+
+}
 
 
+  .icon-right {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 15px;
+}
 
  

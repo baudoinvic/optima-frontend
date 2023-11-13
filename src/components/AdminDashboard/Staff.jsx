@@ -14,9 +14,9 @@ const Staff = () => {
             <div className="cellule-status">Status</div>
             <div className="cellule">Dental staff</div>
             <div className="cellule">Laboratory staff</div>
-            <div className="cellule">Staffdescription</div>
-            <div className="cellule">Nurses</div>
-            <div className="cellule">Doctors</div>
+            <div className="cellule">Dental theraphist</div>
+            <div className="cellule">Cardiology</div>
+            <div className="cellule">Dermatology</div>
             <div className="cellule">Radiology Staff</div>
             <div className="cellule">Action</div>
           </div>

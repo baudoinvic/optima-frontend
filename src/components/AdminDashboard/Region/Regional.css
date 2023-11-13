@@ -1,0 +1,38 @@
+.regional-communities{
+    margin-top: 6rem;
+}
+
+.number-of-community{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-left: 5rem;
+}
+
+.communities-tab{
+   display: flex;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #f5f5f5;
+}
+.single-community{
+   display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+  .community-icon{
+    color: red;
+  }
+
+ .communities {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  min-width: 240px;
+}
+ 
+ .regional-community-tile{
+    color: white;
+    margin-top: -20px;
+ }

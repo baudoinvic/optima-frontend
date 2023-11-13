@@ -1,4 +1,5 @@
 import React from 'react'
+
 import {
   faBolt,
   faHospital,
@@ -51,10 +52,10 @@ const Dash = () => {
           <h2>$20.4k</h2>
           <p>calculating the Salary per year</p>
         </div>
-        
       </div>
       <div className="chart">
         <Chart />
+       
       </div>
     </div>
   );

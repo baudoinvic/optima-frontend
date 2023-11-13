@@ -12,6 +12,7 @@ import Navbar from "./components/site/navbar";
 import Setting from "./components/AdminDashboard/Setting";
 import Staff from "./components/AdminDashboard/Staff";
 import Region from "./components/AdminDashboard/Region/Region";
+import Regionalcommunity from "./components/AdminDashboard/Region/Regionalcommunity";
 
 
 
@@ -32,25 +33,28 @@ import Region from "./components/AdminDashboard/Region/Region";
 
 
    return (
-    
      <div className="App">
        <div className="mainContainer">
          <BrowserRouter>
            <Routes>
-             <Route path= '/' element={<Layout />} />
+             <Route path="/" element={<Layout />} />
              <Route index element={<Home />} />
              <Route path="/about" element={<About />} />
              <Route path="/signup" element={<Signup />} />
              <Route path="/login" element={<Login />} />
 
              {/* Dashboard routes */}
-             <Route path="/dashboard/" element={<Dashboard />}>
-               <Route path="" element= {<Dash />} />
+             <Route path="/dashboard" element={<Dashboard />}>
+               <Route path="" element={<Dash />} />
                <Route path="Users" element={<Users />} />
                <Route path="chart" element={<Chart />} />
                <Route path="Setting" element={<Setting />} />
                <Route path="Staff" element={<Staff />} />
-               <Route path="Region" element={<Region />} /> 
+               <Route path="Region" element={<Region />} />
+               <Route
+                 path="Regionalcommunity"
+                 element={<Regionalcommunity />}
+               />
              </Route>
            </Routes>
          </BrowserRouter>
